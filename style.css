@@ -1,0 +1,238 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+#top{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+#middle{
+  background-color: #f76802;
+  padding: 40px;
+  margin: 10px;
+}
+
+#info-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes{
+  border: 4px outset #f76802;
+  padding:10px;
+  margin:20px;
+  background-color:#0900ab;
+  border-radius:5%;
+}
+
+#block{
+  text-align:center;
+  border:4px outset #0702f7;
+  padding: 30px;
+  margin: 50px;
+  background-color:#f76802;
+  border-radius:10px;
+}
+
+.frame{
+  border: 4px outset #f76802;
+  background-color:#0900ab;
+  padding: 10px;
+  margin:10px;
+  border-radius: 5%
+}
+
+.frame2{
+  border: 4px outset #0702f7;
+  background-color:#f76802;
+  padding: 10px;
+  margin:10px;
+  border-radius: 5%
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.type1{
+  background-color:#f76802; 
+  padding:30px;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.type2{
+  padding:20px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #0702f7 ;
+  margin: 30px;
+  font-size: 80px;
+}
+
+h2{
+  color: #0900ab;
+  text-align: center;
+  font-size: 40px;
+  font-family: libre baskerville; 
+}
+
+.comment{
+  color: white;
+  font-size: 25px;
+}
+
+.helptitle{
+  color: #0702f7;
+  font-size: 60px;
+  font-family: bebas neue;
+}
+
+.head{
+  font-size: 30px;
+  text-align: center;
+  color:#f76802;
+  font-family: saira condensed; 
+}
+
+.extrainfo{
+  text-align:center;
+  color: white;
+  font-size: 20px;
+}
+
+#last{
+  color:#0900ab;
+  font-size: 70px;
+  font-family: karantina;
+}
+
+#des{
+  font-size: 23px;
+  color:white;
+}
+
+#fact{
+  font-size: 30px;
+  color:white;
+  font-family: squada one;
+}
+
+#explain{
+  color: #0702f7;
+  text-align: center;
+  font-size: 40px;
+  margin:20px;
+}
+
+.name{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#definition{
+  text-align:center;
+  font-size: 30px;
+  border: 3px outset #f76802;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: neucha;
+}
+
+#w{
+  text-align:center;
+  font-size: 40px;
+  color:#0702f7;
+  font-family: bebas neue;
+}
+
+h3{
+  color:#0702f7;
+  font-size:30px;
+  font-family: saira condensed;
+}
+
+#final{
+  text-align: center;
+  color: black;
+  font-size: 48px;
+  font-family: mate SC;
+}
+/* STYLE IMAGES */
+#first{
+  width:700px;
+}
+
+.pic{
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo2{
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* STYLE NAV BAR */
+nav{
+  text-align: right;
+  font-family: fjalla one;
+}
+ul{
+  list-style-type: none;
+  background-color: #f76802;
+  overflow:hidden;
+  padding:10px;
+
+}
+
+li{
+  display:inline;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+}
+
+li a:hover{
+  background-color: #ffb078;
+}
+
+/* STYLE BUTTONS */
+#myButton{
+  padding:10px;
+  margin:15px;
+  border: 3px outset #0702f7;
+  font-family: marcellus SC;
+}
+
+/* ADD MORE! */
